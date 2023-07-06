@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+/* Main styles */
+
+.container {
+    background: #f0f2f5;
+    margin: auto;
+    text-align: center;
+}
+
+.container section {
+    width: 640px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.container aside {
+    width: 300px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+img {
+    height: 70px;
+}
