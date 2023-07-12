@@ -6,17 +6,26 @@
 }
 
 /* Main styles */
+body{
+    background: #f0f2f5;
+}
 
 .container {
-    background: #f0f2f5;
-    margin: auto;
     text-align: center;
+    width: 980px;
+    margin: auto;
+    padding-top: 92px;
+    overflow-y: auto;
 }
 
 .container section {
-    width: 640px;
+    width: 500px;
     height: 500px;
-    display: inline-block;
+    float: left;
+    padding-right: 48px;
+    /* margin: 30px 50px; */
+    /* padding: 15px 25px; */
+    /* border: 1px solid black; */
 }
 /* End main styles */
 
@@ -80,9 +89,16 @@ section hgroup h2 {
 /* Aside style */
 aside {
     width: 400px;
+    float: left;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+
+#container-form {
     background-color: #fff;
     border-radius: 8px;
-    display: inline-block;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px #dddfe2, 0 8px 16px #dddfe2;
 }
 
 aside input {
@@ -159,3 +175,8 @@ small a {
 }
 
 /* End aside styles */
+
+/* Footer styles */
+footer {
+    clear: both;
+}
